@@ -18,11 +18,13 @@ class GlobalWarmingQuiz
         Console.WriteLine("   3. Solar radiation");
         Console.WriteLine("   4. Volcanic eruptions");
 
+        // prompting for answers
         Console.Write("\nEnter You Answer (1, 2, 3 or 4): ");
         int answerOne = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine();    // just for spacing purpose
 
+        // checking for right answers
         if (answerOne == 1)
         {
             Console.WriteLine("Correct!");
@@ -42,11 +44,13 @@ class GlobalWarmingQuiz
         Console.WriteLine("   3. The depletion of Earth's ozone layer");
         Console.WriteLine("   4. The warming of Earth's atmosphere by cosmic rays");
 
+        // prompting for answer
         Console.Write("\nEnter You Answer (1, 2, 3 or 4): ");
         int answerTwo = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine();    // just for spacing purpose
 
+        // checking for right answers
         if (answerTwo == 1)
         {
             Console.WriteLine("Correct!");
@@ -66,11 +70,13 @@ class GlobalWarmingQuiz
         Console.WriteLine("   3. 10 degrees Fahrenheit");
         Console.WriteLine("   4. 15 degrees Fahrenheit");
 
+        // prompting for answer
         Console.Write("\nEnter You Answer (1, 2, 3 or 4): ");
         int answerThree = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine();    // just for spacing purpose
 
+        // checking for right answers
         if (answerThree == 1)
         {
             Console.WriteLine("Correct!");
@@ -90,11 +96,13 @@ class GlobalWarmingQuiz
         Console.WriteLine("   3. By blocking heat from reaching Earth's surface");
         Console.WriteLine("   4. By causing volcanic eruptions");
 
+        // prompting for answer
         Console.Write("\nEnter You Answer (1, 2, 3 or 4): ");
         int answerFour = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine();    // just for spacing purpose
 
+        // checking for right answers
         if (answerFour == 2)
         {
             Console.WriteLine("Correct!");
@@ -114,11 +122,13 @@ class GlobalWarmingQuiz
         Console.WriteLine("   3. More frequent and severe weather events");
         Console.WriteLine("   4. All of the above");
 
+        // prompting for answer
         Console.Write("\nEnter You Answer (1, 2, 3 or 4): ");
         int answerFive = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine();    // just for spacing purpose
 
+        // checking if the answer is correct
         if (answerFive == 4)
         {
             Console.WriteLine("Correct!");
@@ -131,6 +141,7 @@ class GlobalWarmingQuiz
 
         Console.WriteLine();    // just for spacing purpose
 
+        // checking the score 
         if (correctAnswers == 5)
         {
             Console.WriteLine("Excellent");
