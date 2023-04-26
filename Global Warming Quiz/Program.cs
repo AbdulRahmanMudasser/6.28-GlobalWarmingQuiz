@@ -23,7 +23,7 @@ class GlobalWarmingQuiz
 
         Console.WriteLine();    // just for spacing purpose
 
-        if (answerOne == 4)
+        if (answerOne == 1)
         {
             Console.WriteLine("Correct!");
             correctAnswers++;
@@ -47,7 +47,7 @@ class GlobalWarmingQuiz
 
         Console.WriteLine();    // just for spacing purpose
 
-        if (answerTwo == 3)
+        if (answerTwo == 1)
         {
             Console.WriteLine("Correct!");
             correctAnswers++;
@@ -71,7 +71,7 @@ class GlobalWarmingQuiz
 
         Console.WriteLine();    // just for spacing purpose
 
-        if (answerThree == 4)
+        if (answerThree == 1)
         {
             Console.WriteLine("Correct!");
             correctAnswers++;
@@ -95,7 +95,7 @@ class GlobalWarmingQuiz
 
         Console.WriteLine();    // just for spacing purpose
 
-        if (answerFour == 4)
+        if (answerFour == 2)
         {
             Console.WriteLine("Correct!");
             correctAnswers++;
@@ -119,7 +119,7 @@ class GlobalWarmingQuiz
 
         Console.WriteLine();    // just for spacing purpose
 
-        if (answerFive == 2)
+        if (answerFive == 4)
         {
             Console.WriteLine("Correct!");
             correctAnswers++;
@@ -130,5 +130,21 @@ class GlobalWarmingQuiz
         }
 
         Console.WriteLine();    // just for spacing purpose
+
+        if (correctAnswers == 5)
+        {
+            Console.WriteLine("Excellent");
+        }
+
+        else if (correctAnswers == 4)
+        {
+            Console.WriteLine("Very Good");
+        }
+
+        else
+        {
+            Console.WriteLine("Time to brush up on your knowledge of global warming.");
+            Console.WriteLine("For more information, visit www.epa.gov/climatechange, www.nationalgeographic.com/environment/global-warming, or www.skepticalscience.com.");
+        }
     }
 }
